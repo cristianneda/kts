@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kts/static/css/main.ebaa1eec.css",
+    "main.js": "/kts/static/js/main.8283f0b6.js",
+    "static/media/kitesurfing-surf-svgrepo-com.svg": "/kts/static/media/kitesurfing-surf-svgrepo-com.a74d862113b28ab7a04904c97f779f6e.svg",
+    "index.html": "/kts/index.html",
+    "main.ebaa1eec.css.map": "/kts/static/css/main.ebaa1eec.css.map",
+    "main.8283f0b6.js.map": "/kts/static/js/main.8283f0b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebaa1eec.css",
+    "static/js/main.8283f0b6.js"
+  ]
+}
