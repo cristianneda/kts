@@ -1,11 +1,10 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import instance from "../Utils/api";
 import Toolbar from "../components/Toolbar";
 import Table from "../components/Pages/Table.js"
 import Map from "../components/Pages/Map";
 import AddFavourite from "../components/Shared/AddFavourite";
-import NavBar from "../components/Shared/NavBar";
+import DashNav from "../components/Shared/DashNav"
 import "../App.css"
 
 
@@ -35,7 +34,7 @@ import "../App.css"
     return (
       <div>
       <h1>Status: {props.loggedIn}</h1>
-      <NavBar/>
+      <DashNav/>
       <div className=" flex items-center flex-col space-y-4 ">
         <Map spots={spots} setSpots={setSpots} favouriteComponent={AddFavourite} handleFavouriteClick={addFavouriteSpot} />
         <Toolbar />
