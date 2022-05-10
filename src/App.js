@@ -20,7 +20,7 @@ export default class App extends Component {
     this.handleLogin = this.handleLogin.bind(this);
   }
   checkLoginStatus() {
-    axios.get("https://626b502d6a86cd64adba3e18.mockapi.io/login", { headers: {
+    axios.get("https://62692e30aa65b5d23e812e0b.mockapi.io/login", { headers: {
       'Content-Type': 'application/json;charset=UTF-8',
       "Access-Control-Allow-Origin": "*",
       withCredentials: true

@@ -26,7 +26,7 @@ export default class Registration extends Component {
     const { email, password, password_confirm } = this.state;
     axios
       .post(
-        "https://626b502d6a86cd64adba3e18.mockapi.io/user",
+        "https://62692e30aa65b5d23e812e0b.mockapi.io/user",
         {
           user: {
             email: email,
