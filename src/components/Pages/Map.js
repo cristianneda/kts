@@ -34,7 +34,7 @@ const Map = (props) => {
 console.log(spots)
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "personal API key",
+    googleMapsApiKey: "AIzaSyBNXDGVgUSd4hFBFpOo7ttaomYfNV9mAUA",
   });
 
   
