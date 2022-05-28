@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import Toolbar from "../components/Toolbar";
 import Table from "../components/Pages/Table.js"
 import Map from "../components/Pages/Map";
 import AddFavourite from "../components/Shared/AddFavourite";
@@ -16,7 +15,7 @@ import "../App.css"
   
   
   //  get spots data from API
-  const fetchUrl = "https://62692e30aa65b5d23e812e0b.mockapi.io/spot";
+  const fetchUrl = "https://626b502d6a86cd64adba3e18.mockapi.io/spot";
   useEffect(() => {
     async function fetchData() {
       const data = await axios.get(fetchUrl);
@@ -37,7 +36,6 @@ import "../App.css"
       <DashNav/>
       <div className=" flex items-center flex-col space-y-4 ">
         <Map spots={spots} setSpots={setSpots} favouriteComponent={AddFavourite} handleFavouriteClick={addFavouriteSpot} />
-        <Toolbar />
         <Table spots={spots} sorter={sorter} setSpots={setSpots} favouriteComponent={AddFavourite} />
       </div>
       </div>

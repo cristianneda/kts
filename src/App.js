@@ -16,7 +16,7 @@ export default class App extends Component {
       loggedIn: "NOT_LOGGED_IN",
       user: {}
     }
-
+console.log(process.env)
     this.handleLogin = this.handleLogin.bind(this);
   }
   checkLoginStatus() {

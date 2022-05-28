@@ -31,10 +31,10 @@ const Map = (props) => {
     disableDefaultUI: true,
     zoomControl: true,
   };
-console.log(spots)
+
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBNXDGVgUSd4hFBFpOo7ttaomYfNV9mAUA",
+    googleMapsApiKey:`${process.env.REACT_APP_API_KEY}`,
   });
 
   
